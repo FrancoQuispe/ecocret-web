@@ -1,0 +1,31 @@
+.container-fluid{
+  background-color: rgb(48, 48, 48);
+  padding: 50px;
+}
+
+img{
+  width: 150px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.div-text-cel{
+  display: none;
+}
+
+@media screen and (max-width: 700px){
+  .div-text{
+    display: none;
+  }
+
+  .div-text-cel{
+    display: block;
+  }
+
+  img{
+    display: none;
+  }
+}
